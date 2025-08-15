@@ -43,7 +43,7 @@ Backend runs at: http://127.0.0.1:8000/
 ---
 
 
-🎨 Frontend Setup (React + Tailwind)
+## 🎨 Frontend Setup (React + Tailwind)
 
 1️⃣ Install Dependencies
 ```bash
