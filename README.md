@@ -16,34 +16,6 @@ A full-stack application for predicting stock prices using machine learning (Pro
 
 ---
 
-## 📂 Project Structure
-
-smart-stock-prediction/
-│
-├── backend/ (Django + DRF)
-│ ├── stock_prediction_drf/
-│ ├── api/
-│ │ ├── views.py
-│ │ ├── urls.py
-│ │ └── ...
-│ └── requirements.txt
-│
-├── frontend/ (React + Tailwind)
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── SearchBar.jsx
-│ │ │ ├── Dashboard.jsx
-│ │ │ ├── StockChart.jsx
-│ │ │ └── Header.jsx
-│ │ ├── App.jsx
-│ │ └── index.css
-│ └── package.json
-│
-└── README.md
-
-
----
-
 ## 🛠 Backend Setup (Django)
 
 1️⃣ Create Virtual Environment
@@ -68,6 +40,9 @@ python manage.py runserver
 Backend runs at: http://127.0.0.1:8000/
 
 
+---
+
+
 🎨 Frontend Setup (React + Tailwind)
 
 1️⃣ Install Dependencies
@@ -85,6 +60,9 @@ Frontend runs at: http://localhost:5173/
 
 1️⃣ Predict Stock
 POST /api/predict/
+
+
+---
 
 
 📥 Sample Input
@@ -112,6 +90,9 @@ Apple to unveil AI-powered iPhone features
 }
 
 
+---
+
+
 🖥 Frontend Demo
 SearchBar: Select stock symbol & upload PDF
 
@@ -129,3 +110,5 @@ StockChart: Historical & predicted price chart
 If a PDF is uploaded, the news will be extracted from it instead of yFinance.
 
 If no PDF is provided, yFinance will be used to fetch latest news.
+
+---
